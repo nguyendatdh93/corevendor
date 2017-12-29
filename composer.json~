@@ -4,7 +4,7 @@
     "license": "MIT",
     "type": "package",
     "keywords": ["bootstrap", "theme", "admin", "template", "administrator","admin-lte","adminlte", "laravel"],
-    "homepage": "https://github.com/nguyendatdh93/laravel-vendor-core",
+    "homepage": "https://github.com/nguyendatdh93/corevendor",
     "authors": [
         {
             "name": "Datnv",

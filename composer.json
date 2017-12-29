@@ -35,7 +35,7 @@
   "config": {
     "sort-packages": true
   },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {},
     "prefer-stable": true
 }

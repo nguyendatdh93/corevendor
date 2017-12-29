@@ -1,0 +1,12 @@
+{
+    "name": "datnv/basevendor",
+    "description": "A package which provides AdminLTE UI for managerment",
+    "authors": [
+        {
+            "name": "nguyendat",
+            "email": "nguyen.van.dat@alliedtechbase.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

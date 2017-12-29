@@ -1,5 +1,5 @@
 {
-    "name": "nguyendatdh93/laravel-adminlte-vendor-base",
+    "name": "basevendor/admin-template",
     "description": "Vendor core laravel admin lte",
     "license": "MIT",
     "type": "package",

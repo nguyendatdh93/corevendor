@@ -8,13 +8,11 @@
             "email": "nguyen.van.dat@alliedtechbase.com"
         }
     ],
-"require": {
+  "require": {
     "php": "~5.6|~7.0"
   },
   "require-dev": {
-    "phpunit/phpunit": "~4.0||~5.0",
-    "squizlabs/php_codesniffer": "^2.3",
-    "laravel/dusk": "^2.0"
+    "phpunit/phpunit": "~4.0||~5.0"
   },
   "autoload": {
     "psr-4": {"BaseVendor\\AdminTemplate\\": "src"}
@@ -36,6 +34,5 @@
     "sort-packages": true
   },
     "minimum-stability": "stable",
-    "require": {},
     "prefer-stable": true
 }

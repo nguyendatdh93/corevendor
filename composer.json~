@@ -1,6 +1,6 @@
 {
     "name": "nguyendatdh93/laravel-vendor-core",
-    "version": "1.0.0",
+    "license": "MIT",
     "description": "A package which provides AdminLTE UI for managerment",
     "authors": [
         {

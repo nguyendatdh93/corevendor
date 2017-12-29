@@ -1,5 +1,6 @@
 {
     "name": "datnv/basevendor",
+    "version": "1.0.0",
     "description": "A package which provides AdminLTE UI for managerment",
     "authors": [
         {

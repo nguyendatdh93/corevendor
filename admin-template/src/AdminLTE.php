@@ -1,6 +1,6 @@
 <?php
 
-namespace Corevendor\AdminTemplate;
+namespace Atb\Corevendor\AdminTemplate;
 
 /**
  * Class AdminLTE.

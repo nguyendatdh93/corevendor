@@ -1,6 +1,6 @@
 <?php
 
-namespace Corevendor\Helpers\Console\Commands;
+namespace Atb\Corevendor\Helpers\Console\Commands;
 
 use Illuminate\Support\Str;
 

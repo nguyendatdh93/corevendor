@@ -1,9 +1,9 @@
 <?php
 
-namespace Basevendor\AdminTemplate\Providers;
+namespace Corevendor\AdminTemplate\Providers;
 
-use Basevendor\AdminTemplate\Facades\AdminLTE;
-use Basevendor\User\Providers\GuestUserServiceProvider;
+use Corevendor\AdminTemplate\Facades\AdminLTE;
+use Corevendor\User\Providers\GuestUserServiceProvider;
 use Creativeorange\Gravatar\Facades\Gravatar;
 use Creativeorange\Gravatar\GravatarServiceProvider;
 use Illuminate\Console\DetectsApplicationNamespace;

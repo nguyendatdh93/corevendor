@@ -1,6 +1,6 @@
 <?php
 
-namespace Basevendor\AdminTemplate\Facades;
+namespace Corevendor\AdminTemplate\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

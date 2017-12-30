@@ -1,6 +1,6 @@
 <?php
 
-namespace Basevendor\Helpers\Console\Commands;
+namespace Corevendor\Helpers\Console\Commands;
 
 use Illuminate\Foundation\Console\RequestMakeCommand as BaseRequestMakeCommand;
 

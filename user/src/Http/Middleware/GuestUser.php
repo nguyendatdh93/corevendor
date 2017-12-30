@@ -1,6 +1,6 @@
 <?php
 
-namespace Basevendor\User\Http\Middleware;
+namespace Corevendor\User\Http\Middleware;
 
 use Closure;
 

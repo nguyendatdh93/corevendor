@@ -13,7 +13,7 @@
     ],
     "require": {
         "php": "~5.6|~7.0",
-	"creativeorange/gravatar": "~1.0",
+	    "creativeorange/gravatar": "~1.0",
         "laravel/framework": "^5.4",
         "league/flysystem": "^1.0"
     },
@@ -23,11 +23,11 @@
         "laravel/dusk": "^2.0"
     },
     "autoload": {
-        "psr-4": {"Basevendor\\AdminTemplate\\": "src"}
+        "psr-4": {"Atb\\Corevendor\\AdminTemplate\\": "src"}
     },
     "autoload-dev": {
         "psr-4": {
-            "Basevendor\\AdminTemplate\\": "tests"
+            "Atb\\Corevendor\\AdminTemplate\\": "tests"
         }
     },
     "scripts": {
@@ -41,10 +41,10 @@
         },
         "laravel": {
             "providers": [
-                "Basevendor\\AdminTemplate\\Providers\\AdminLTETemplateServiceProvider"
+                "Atb\\Corevendor\\AdminTemplate\\Providers\\AdminLTETemplateServiceProvider"
             ],
             "aliases": {
-                "AdminLTE" : "Basevendor\\AdminTemplate\\AdminLTE"
+                "AdminLTE" : "Atb\\Corevendor\\AdminTemplate\\AdminLTE"
             }
         }
     },

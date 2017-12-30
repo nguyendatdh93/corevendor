@@ -1,5 +1,5 @@
 {
-    "name": "basevendor/admin-template",
+    "name": "atb/corevendor",
     "description": "Vendor core laravel admin lte",
     "license": "MIT",
     "type": "package",

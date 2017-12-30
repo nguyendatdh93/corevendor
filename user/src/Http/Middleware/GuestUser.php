@@ -20,7 +20,7 @@ class GuestUser
     public function handle($request, Closure $next)
     {
         view()->share('signedIn',auth()->check());
-        view()->share('user', auth()->user() ?: new \Basevendor\User\GuestUser);
+        view()->share('user', auth()->user() ?: new \Atb\Corevendor\User\GuestUser);
         return $next($request);
     }
 }

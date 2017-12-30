@@ -27,7 +27,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Atb\\Corevendor\\AdminTemplate\\": "tests"
+            "Atb\\Corevendor\\AdminTemplate\\": "src"
         }
     },
     "scripts": {
@@ -51,5 +51,5 @@
     "config": {
         "sort-packages": true
     },
-    "minimum-stability" : "stable"
+    "minimum-stability" : "dev"
 }

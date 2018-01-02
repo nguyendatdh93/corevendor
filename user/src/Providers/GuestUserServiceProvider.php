@@ -1,8 +1,8 @@
 <?php
 
-namespace Corevendor\User\Providers;
+namespace Atb\Corevendor\User\Providers;
 
-use Corevendor\User\Http\Middleware\GuestUser;
+use Atb\Corevendor\User\Http\Middleware\GuestUser;
 use Illuminate\Routing\Router;
 use Illuminate\Support\ServiceProvider;
 

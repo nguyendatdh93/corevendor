@@ -23,11 +23,11 @@
         "laravel/dusk": "^2.0"
     },
     "autoload": {
-        "psr-4": {"Atb\\Corevendor\\AdminTemplate\\": "src"}
+        "psr-4": {"Atb\\Corevendor\\": "src"}
     },
     "autoload-dev": {
         "psr-4": {
-            "Atb\\Corevendor\\AdminTemplate\\": "src"
+            "Atb\\Corevendor\\": "src"
         }
     },
     "scripts": {
@@ -41,10 +41,10 @@
         },
         "laravel": {
             "providers": [
-                "Atb\\Corevendor\\AdminTemplate\\Providers\\AdminLTETemplateServiceProvider"
+                "Atb\\Corevendor\\Providers\\AdminLTETemplateServiceProvider"
             ],
             "aliases": {
-                "AdminLTE" : "Atb\\Corevendor\\AdminTemplate\\AdminLTE"
+                "AdminLTE" : "Atb\\Corevendor\\AdminLTE"
             }
         }
     },

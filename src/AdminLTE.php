@@ -1,6 +1,6 @@
 <?php
 
-namespace Atb\Corevendor\AdminTemplate;
+namespace Atb\Corevendor;
 
 /**
  * Class AdminLTE.

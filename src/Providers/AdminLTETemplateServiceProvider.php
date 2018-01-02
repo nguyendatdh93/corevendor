@@ -1,9 +1,9 @@
 <?php
 
-namespace Atb\Corevendor\AdminTemplate\Providers;
+namespace Atb\Corevendor\Providers;
 
-use Atb\Corevendor\AdminTemplate\Facades\AdminLTE;
-use Atb\Corevendor\User\Providers\GuestUserServiceProvider;
+use Atb\Corevendor\Facades\AdminLTE;
+use Corevendor\User\Providers\GuestUserServiceProvider;
 use Creativeorange\Gravatar\Facades\Gravatar;
 use Creativeorange\Gravatar\GravatarServiceProvider;
 use Illuminate\Console\DetectsApplicationNamespace;
@@ -26,7 +26,7 @@ class AdminLTETemplateServiceProvider extends ServiceProvider
         }
 
         $this->app->bind('AdminLTE', function () {
-            return new \Atb\Corevendor\AdminTemplate\AdminLTE();
+            return new \Atb\Corevendor\AdminLTE();
         });
 
         if (config('adminlte.gravatar', true)) {

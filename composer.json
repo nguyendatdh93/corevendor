@@ -25,15 +25,13 @@
     "autoload": {
         "psr-4": {
             "Atb\\Corevendor\\": "src",
-            "Atb\\Corevendor\\User\\": "user/src",
-            "Atb\\Corevendor\\Helpers\\": "helpers/src"
+            "Atb\\Corevendor\\User\\": "user/src"
         }
     },
     "autoload-dev": {
         "psr-4": {
             "Atb\\Corevendor\\": "src",
-            "Atb\\Corevendor\\User\\": "user/src",
-            "Atb\\Corevendor\\Helpers\\": "helpers/src"
+            "Atb\\Corevendor\\User\\": "user/src"
         }
     },
     "scripts": {

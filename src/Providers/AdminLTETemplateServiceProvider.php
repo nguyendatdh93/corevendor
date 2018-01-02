@@ -3,7 +3,7 @@
 namespace Atb\Corevendor\Providers;
 
 use Atb\Corevendor\Facades\AdminLTE;
-use Corevendor\User\Providers\GuestUserServiceProvider;
+use Atb\Corevendor\User\Providers\GuestUserServiceProvider;
 use Creativeorange\Gravatar\Facades\Gravatar;
 use Creativeorange\Gravatar\GravatarServiceProvider;
 use Illuminate\Console\DetectsApplicationNamespace;

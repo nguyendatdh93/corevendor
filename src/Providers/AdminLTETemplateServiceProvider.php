@@ -157,9 +157,30 @@ class AdminLTETemplateServiceProvider extends ServiceProvider
      */
     private function publishViews()
     {
-        $this->loadViewsFrom(ADMINLTETEMPLATE_PATH.'/resources/views/', 'admin');
+
+        $this->loadViewsFrom(resource_path('views'), 'admin');
 
         $this->publishes(AdminLTE::views(), 'admin');
+    }
+
+    /**
+     * Register a view file namespace.
+     *
+     * @param  string  $path
+     * @param  string  $namespace
+     * @return void
+     */
+    protected function loadViewsFrom($path, $namespace)
+    {
+        if (is_array($this->app->config['view']['paths'])) {
+            foreach ($this->app->config['view']['paths'] as $viewPath) {
+                if (is_dir($appPath = $viewPath.'/'.$namespace)) {
+                    $this->app['view']->addNamespace($namespace, $appPath);
+                }
+            }
+        }
+
+        $this->app['view']->addNamespace($namespace, $path);
     }
 
     /**
@@ -183,7 +204,7 @@ class AdminLTETemplateServiceProvider extends ServiceProvider
      */
     private function publishLanguages()
     {
-        $this->loadTranslationsFrom(ADMINLTETEMPLATE_PATH.'/resources/lang/', 'adminlte_lang');
+        $this->loadTranslationsFrom(resource_path('lang'), 'adminlte_lang');
 
         $this->publishes(AdminLTE::languages(), 'adminlte_lang');
     }

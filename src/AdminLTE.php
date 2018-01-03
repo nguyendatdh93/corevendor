@@ -97,7 +97,7 @@ class AdminLTE
             ADMINLTETEMPLATE_PATH.'/resources/views/welcome.blade.php' =>
                 resource_path('views/welcome.blade.php'),
             ADMINLTETEMPLATE_PATH.'/resources/views/layouts/partials/sidebar.blade.php' =>
-                resource_path('views/vendor/admin/layouts/partials/sidebar.blade.php'),
+                resource_path('views/admin/layouts/partials/sidebar.blade.php'),
         ];
     }
 
@@ -110,7 +110,7 @@ class AdminLTE
     {
         return [
             ADMINLTETEMPLATE_PATH.'/resources/views/layouts/partials/sidebar.blade.php' =>
-                resource_path('views/vendor/admin/layouts/partials/sidebar.blade.php'),
+                resource_path('views/admin/layouts/partials/sidebar.blade.php'),
         ];
     }
 
@@ -123,13 +123,13 @@ class AdminLTE
     {
         return [
             ADMINLTETEMPLATE_PATH.'/resources/views/auth'              =>
-                resource_path('views/vendor/admin/auth'),
+                resource_path('views/admin/auth'),
             ADMINLTETEMPLATE_PATH.'/resources/views/errors'            =>
-                resource_path('views/vendor/admin/errors'),
+                resource_path('views/admin/errors'),
             ADMINLTETEMPLATE_PATH.'/resources/views/layouts'           =>
-                resource_path('views/vendor/admin/layouts'),
+                resource_path('views/admin/layouts'),
             ADMINLTETEMPLATE_PATH.'/resources/views/home.blade.php'    =>
-                resource_path('views/vendor/admin/home.blade.php'),
+                resource_path('views/admin/home.blade.php'),
             ADMINLTETEMPLATE_PATH.'/resources/views/welcome.blade.php' =>
                 resource_path('views/welcome.blade.php'),
         ];
@@ -211,7 +211,7 @@ class AdminLTE
     {
         return [
             ADMINLTETEMPLATE_PATH.'/resources/views/layouts/partials/sidebar_with_spatie_menu.blade.php' =>
-                resource_path('views/vendor/admin/layouts/partials/sidebar.blade.php')
+                resource_path('views/admin/layouts/partials/sidebar.blade.php')
         ];
     }
 
